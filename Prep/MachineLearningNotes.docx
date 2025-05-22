@@ -1,0 +1,38 @@
+Intro:
+
+AI application is able to do it's own task without any human intervention.
+eg: Netfilx --> Action Movie --> Recommandation is given by AI Application
+    Amazon --> Iphone --> It may Recommand you Head Phones done by AI Application.
+    Self Driving
+These are done with out any human intervention which is done by AI Application.
+
+Machine Learning is subset of AI, It provides a stats tools to analyze Visualize, prediction, forecasting.
+Deep Learning is subset of ML, main aim is to Mimic human brain to implement/learn some thing.
+
+Types of Machine Learnings:
+1. Supervised ML - (Regression & Classification)
+2. UnSupervised ML - (Clustering & Dimensnality Reduction)
+
+Supervised ML:
+Models learns with the help of independent features along with dependent features (Labels for Inputs or independent features).
+
+Regression:
+Whenever output or predicted value or dependent feature is continious value then that problem is know as Regression Problem.
+
+Classification:
+If our output or predicted value or dependent feature is one of the fixed no of categories, then that problem is know as Classification Problem
+        If it is having 2 o/p categories then it is know as Binary classification.
+        Morethan 2 -> Multi class classification
+
+UnSupervised ML:
+Model learns patterns from data without labeled outputs. It groups or organizes data based on similarites or structures.
+
+Clustering:
+Type of UnSupervised learning that groups similar datapoints into clusters. Each cluster contains data points that are more similar to 
+each other.
+eg: Customer Segmenation
+
+Dimensonality Reduction: Reducing from higher dimensionality features to lower dimensionality features.
+eg: PCA, LDA
+
+Linear Regression:

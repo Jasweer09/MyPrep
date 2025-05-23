@@ -36,3 +36,25 @@ Dimensonality Reduction: Reducing from higher dimensionality features to lower d
 eg: PCA, LDA
 
 Linear Regression:
+The Aim of Linear Regression is draw a best fit line through the data points that should be minimal sum of all distance(difference between atual point and predicted point)
+In order to get the best fit line we to update the Theta1 and Theta0 continously. In order to update it we need the cost function.
+
+Cost Function:
+it calculates the error between predicted and actual results. 
+The goal of training a model is to minimize the cost function, so the model makes better predictions.
+
+Convergence Algorithm:
+Finding the Theta's value to update the cost function like increasing or decreasing the Theta value
+
+Flow of Linear Regression:
+Finding the best fit line with minimal cost function -> By continously changing the Theta 1 and Theta 0 values -> By using the
+Convergence Alogrithm we can come to unknow like we need to increase or decrease the value -> with the help fo slope -> by using the
+learning rate(alpha recommanded value = 0.01)
+
+Local Minima:
+We won't get the local minima in linear regression because our gradient descent and cost function won't get that chance, but in 
+deep learning we will get local minima.
+Local minima: there is some minimum cost fucntion values in gradient descent but those are not help our model to predict 
+best prediction, we need to attain the global minima from that.
+When we reach the local minima our slope will be 0 then our model struck over there. to solve this we have different gradient 
+descents are there.

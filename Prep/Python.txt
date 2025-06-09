@@ -1,0 +1,14 @@
+Strings:
+strs.isalnum()  -> check if all char are numbers or alphabets
+strs.isalpha()  -> only alphabets
+strs.isdigit()  ->only numbers
+strs.istitle()  ->check the first letter is Capital and follwed by chacters only    
+                    it doesn't contains the numbers in between characters but they
+                    present at end.
+strs.isupper()  ->the charcters present in the string are upper or not and doesn't categories   
+                    about numericals
+strs.islower()  ->the charcters present in the string are lower or not and doesn't categories   
+                    about numericals
+strs.isspace()  ->It check that is space and tab then return true or else false
+strs.endswith('k')
+strs.startswith('k')
